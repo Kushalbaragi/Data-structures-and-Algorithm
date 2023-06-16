@@ -14,3 +14,14 @@
 // }
 
 // console.log(arr);
+
+const des={t:'pie'}
+des.t='kushal';
+
+const kis=des;
+kis.t='kavita';
+
+
+console.log(des.t);
+console.log(kis.t);
+

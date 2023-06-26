@@ -1,13 +1,16 @@
-let str='abcde';
+let str = "abcdefg";
 
-//using methods
-// let newstr=str.split('').reverse().join('');
+//using one line
 
-//using decrement for loop
-// let revStr='';
-// for(let i=str.length-1;i>=0;i--){
-// revStr+=str.charAt(i);
-// }
+// let revStr=(str.split('').reverse().join(''));
+// console.log(revStr);
 
-console.log(revStr);
+function revStr(str) {
+  let revstring = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    revstring += str[i];
+  }
+  return revstring;
+}
 
+console.log(revStr(str))

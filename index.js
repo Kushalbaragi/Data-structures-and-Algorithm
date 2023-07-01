@@ -1,7 +1,7 @@
-let target=document.querySelectorAll('div');
-function clickEvent(e){
-    e.stopPropagation();
-console.log(this.classList.value);
-}
+document.cookie='name=kushal'
+document.cookie='logged=true'
+console.log(document.cookie);
 
-target.forEach(t=>t.addEventListener('click',clickEvent,{capture:true,once:true}))
+let str=document.cookie;
+let arr=str.split(';');
+console.log(arr);

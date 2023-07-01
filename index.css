@@ -1,0 +1,31 @@
+.blue {
+  font-size: 32px;
+  background-color: royalblue;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+}
+
+.two, .three {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-color: white;
+}
+
+.three {
+  border: 2px solid red;
+  width: 20px;
+}/*# sourceMappingURL=index.css.map */
